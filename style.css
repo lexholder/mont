@@ -1,9 +1,67 @@
 body {
     padding: 0;
     margin: 0;
-    background: #fafafa;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+    font-family: 'Nunito', sans-serif;
 }
 
 .navbar {
     background: #fff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card-img-overlay {
+    background: rgba(255, 255, 255, .8);
+    width: 30%;
+    height: 25%;
+    line-height: 2em;
+}
+
+.card-img-overlay2 {
+    background: rgba(255, 255, 255, .8);
+    width: 50%;
+    height: 30%;
+    line-height: 2em;
+}
+
+.double {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#bottom {
+    background: transparent;
+    padding: .5em;
+    transition: background .5s;
+}
+
+#bottom:hover {
+    background: #89b6fa;
+}
+
+.nav-item {
+    background: transparent;
+    padding: .5em;
+    transition: background .5s;
+}
+
+.nav-item:hover {
+    background: #89b6fa;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(#b0c6e6, #d3d6f5)!important;
+    transition: background-color 1s linear;
+}
+
+.sticky-bottom {
+    background: linear-gradient(#b0c6e6, #d3d6f5);
 }
